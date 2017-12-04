@@ -7,7 +7,7 @@ if __name__== '__main__':
     url = 'https://api.github.com/user'
 
     session = requests.session()
-    session.auth = ( 'email@gmail.com', 'passwordGitHub ')
+    session.auth = ( 'email@gmail.com', 'passwordGitHub')
 
     response = session.get(url)
 
